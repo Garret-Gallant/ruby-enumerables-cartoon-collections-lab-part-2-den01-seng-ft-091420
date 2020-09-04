@@ -30,4 +30,5 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.select do |str|
     str == valid_calls
   end
+  str
 end
