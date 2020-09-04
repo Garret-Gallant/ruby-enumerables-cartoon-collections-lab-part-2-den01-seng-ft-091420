@@ -31,5 +31,6 @@ def find_valid_calls(planeteer_calls)
     str == valid_calls
   planeteer_calls.includes do |str|
     str == valid_calls
+    end
   end
 end
